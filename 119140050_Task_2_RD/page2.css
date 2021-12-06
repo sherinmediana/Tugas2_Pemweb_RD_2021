@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right, #E0FFFF,#FFFFFF,#E0FFFF)
+}
+.container {
+    padding: 5%;
+    width: 65%;
+    margin: auto;
+}
+
+caption {
+    margin-top: 15px ;
+    font-weight: bold;
+    padding: 0.25em 0 0.25em 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    }
+
+table {
+    font-family: serif;
+    border-collapse: collapse;
+    border-top: 4px solid #008b88;
+    text-align: left;
+    }
+
+table tr :hover {
+    color: rgb(0, 174, 255);
+    background-color: white;
+}
+
+th {
+    padding: 10px;
+    background-color: rgb(81, 207, 207);
+}
+
+td {
+    padding: 15px;
+    background-color: azure;
+}
+
+button {
+    
+    margin: 3% 5%;
+    width: 70px;
+    font-family: serif;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.footer {
+    background:azure;
+    position:absolute;
+    bottom:0;width:100%;
+    text-align:center;
+    color:#000000;
+}

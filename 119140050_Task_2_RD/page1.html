@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Form Peminjaman</title>
+    <link rel="stylesheet" type="text/css" href="page1.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+    <h1>Form  Peminjaman Ruangan Kampus</h1>
+    <form action="page2.html"method="get">
+        <table>
+            <tr>
+                <td>Nama Peminjam</td>
+                <td>:</td>
+                <td><input type="text" name="nama_peminjam"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="number" name="nim"></td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td><input type="text" name="program_studi"></td>
+            </tr>
+            <tr>
+                <td>Angkatan</td>
+                <td>:</td>
+                <td><input type="text" name="angkatan"></td>
+            </tr>
+            <tr>
+                <td>Tujuan Peminjaman</td>
+                <td>:</td>
+                <td><textarea name="tujuan_peminjaman"></textarea></td>
+            </tr>
+            <tr>
+                <td>Ruangan</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="ruangan" value="E109"> E109
+                    <input type="radio" name="ruangan" value="E111"> E111
+                </td>
+            </tr>
+            <tr>
+                <td>Waktu Peminjaman</td>
+                <td>:</td>
+                <td><input type="datetime-local" name="waktu_peminjaman"> </td>
+            </tr>
+            <tr>
+                <td>
+                  <button type="submit" name="submit">Submit</button>  
+                </td>
+            </tr>
+        </table>
+    </form>
+        </div>
+    </div>       
+    <div class="footer">
+        <p>Copyright &copy Sherin Mediana Putri</p>
+   </div> 
+</body>
+</html>
